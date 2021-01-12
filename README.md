@@ -1,13 +1,15 @@
-### Trustly Challenge 
+# Trustly Challenge 
 
-Challenge:
+###Challenge:
 Develop an API that returns the total number of lines and the total number of bytes of all the files of a given public Github repository, grouped by file extension.
 
-###Author
-# Caio de Souza Moreira - Linkedin - https://www.linkedin.com/in/caiodesouzamoreira/
+
+#Author
+
+### Caio de Souza Moreira - Linkedin - https://www.linkedin.com/in/caiodesouzamoreira/
 
 
-###Requirements:
+#Requirements:
 
 •	Your API must be written using Java 8 or newer, ECMAscript 2015 or newer, or C# 8.0;
 •	Data must be retrieved from Github website by using web scraping techniques. Do not use Github’s API;
@@ -23,10 +25,12 @@ Develop an API that returns the total number of lines and the total number of by
 •	You must deploy your solution to a cloud provider like Amazon AWS or Heroku and send us the link to access it. It’s a plus if you publish a Docker image with your application (including its dependencies) in a registry like Docker Hub and let us know how to get it.  
 
 
-### How to use it :
-Send a GET Request to https://trustly-challenge.herokuapp.com/github/repository?owner={owner}&repo={repositoryname}
+# How to use it :
+Send a GET Request to:  
+              https://trustly-challenge.herokuapp.com/github/repository?owner={owner}&repo={repositoryname}
 
-#Examples :
+# Request Examples:
+
 • https://trustly-challenge.herokuapp.com/github/repository?owner=elastic&repo=elasticsearch
 • https://trustly-challenge.herokuapp.com/github/repository?owner=caiodsouza22&repo=test-hearthstone
 • https://trustly-challenge.herokuapp.com/github/repository?owner=caiodsouza22&repo=ServiceOrder-system
