@@ -1,8 +1,6 @@
 package com.caiodesouza.truslychallenge.resourcers;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.caiodesouza.truslychallenge.dto.GithubFileDTO;
+import com.caiodesouza.truslychallenge.dto.GithubRepoDTO;
 import com.caiodesouza.truslychallenge.services.GithubService;
 
 @RestController
@@ -23,10 +21,10 @@ public class GithubResource {
 	
 
 	@GetMapping(value = "/repository")
-	public ResponseEntity<Map<String, List<GithubFileDTO>>> findRepoByOwnerAndRepoName(
+	public ResponseEntity<GithubRepoDTO> findRepoByOwnerAndRepoName(
 			@RequestParam(name = "owner", required = true) final String owner,
 			@RequestParam(name = "repo", required = true) final String repo) throws IOException {
-		final Map<String, List<GithubFileDTO>> list = service.extractEveryFileFromRepository(service.getUrlFromRepository(owner, repo));
+		final GithubRepoDTO list = service.extractEveryFileFromRepository(owner, repo);
 		return  ResponseEntity.ok().body(list);
 			
 				
