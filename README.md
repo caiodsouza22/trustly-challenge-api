@@ -1,15 +1,15 @@
 # Trustly Challenge 
 
-###Challenge:
+### Challenge:
 Develop an API that returns the total number of lines and the total number of bytes of all the files of a given public Github repository, grouped by file extension.
 
 
-#Author 
+# Author 
 
 ### Caio de Souza Moreira - Linkedin - https://www.linkedin.com/in/caiodesouzamoreira/
 
 
-#Requirements:
+# Requirements:
 
 •	Your API must be written using Java 8 or newer, ECMAscript 2015 or newer, or C# 8.0;
 •	Data must be retrieved from Github website by using web scraping techniques. Do not use Github’s API;
