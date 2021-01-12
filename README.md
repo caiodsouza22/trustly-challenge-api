@@ -29,7 +29,8 @@ Develop an API that returns the total number of lines and the total number of by
  ``` 
 
 # How to use it :
-Send a GET Request to:  
+### This app is hosted at Heroku .
+You should send a GET Request with two Request Parameters , like the example below :
        https://trustly-challenge.herokuapp.com/github/repository?owner={owner}&repo={repositoryname}
 
 # Request Examples:
