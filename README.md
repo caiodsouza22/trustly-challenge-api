@@ -4,7 +4,7 @@
 Develop an API that returns the total number of lines and the total number of bytes of all the files of a given public Github repository, grouped by file extension.
 
 
-#Author
+#Author 
 
 ### Caio de Souza Moreira - Linkedin - https://www.linkedin.com/in/caiodesouzamoreira/
 
@@ -27,11 +27,13 @@ Develop an API that returns the total number of lines and the total number of by
 
 # How to use it :
 Send a GET Request to:  
-              https://trustly-challenge.herokuapp.com/github/repository?owner={owner}&repo={repositoryname}
+       https://trustly-challenge.herokuapp.com/github/repository?owner={owner}&repo={repositoryname}
 
 # Request Examples:
 
 • https://trustly-challenge.herokuapp.com/github/repository?owner=elastic&repo=elasticsearch
+
 • https://trustly-challenge.herokuapp.com/github/repository?owner=caiodsouza22&repo=test-hearthstone
+
 • https://trustly-challenge.herokuapp.com/github/repository?owner=caiodsouza22&repo=ServiceOrder-system
 
