@@ -42,6 +42,7 @@ public class GithubServiceTest {
 		final String url = service.getUrlFromRepository("caiodsouza22", "DrumKit");
 		
 		assertNotNull(url);
+		assertEquals("https://github.com/caiodsouza22/DrumKit/archive/master.zip", url);
 		assertTrue(url.contains("caiodsouza22"));
 		assertTrue(url.contains("DrumKit"));
 		
