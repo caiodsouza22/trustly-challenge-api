@@ -35,9 +35,10 @@ You should send a GET Request with two Request Parameters , like the example bel
 
 # Request Examples:
 
-• https://trustly-challenge.herokuapp.com/github/repository?owner=elastic&repo=elasticsearch
 
 • https://trustly-challenge.herokuapp.com/github/repository?owner=caiodsouza22&repo=test-hearthstone
 
 • https://trustly-challenge.herokuapp.com/github/repository?owner=caiodsouza22&repo=ServiceOrder-system
+
+• https://trustly-challenge.herokuapp.com/github/repository?owner=elastic&repo=elasticsearch
 
